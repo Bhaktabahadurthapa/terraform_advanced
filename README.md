@@ -1,9 +1,9 @@
 # terraform Provisioner
 
-A "**provisioner**" in Terraform is a mechanism that allows you to run scripts or commands on a local or remote machine after a resource has been created, essentially performing additional configuration tasks like installing software or setting up initial settings on a newly provisioned server; it's used when you need to do something beyond what Terraform's core resource creation capabilities can handle, but should be used sparingly as it can add complexity to your configuration. 
+'A "**provisioner**" in Terraform is a mechanism that allows you to run scripts or commands on a local or remote machine after a resource has been created, essentially performing additional configuration tasks like installing software or setting up initial settings on a newly provisioned server; it's used when you need to do something beyond what Terraform's core resource creation capabilities can handle, but should be used sparingly as it can add complexity to your configuration. '
 
-
-**Key points about Terraform provisioners**
+ 
+'**Key points about Terraform provisioners**'
 
 
 **Functionality**
@@ -11,7 +11,7 @@ Provisioners execute custom scripts or commands on either the machine where Terr
 **Use cases**
 Installing necessary software on a server after it's been created. 
 Setting up initial configurations for a service. 
-Performing cleanup tasks before destroying a resource. 
+Performing cleanup tasks before destroying a resource. ''
 
 
 **Important considerations:**
