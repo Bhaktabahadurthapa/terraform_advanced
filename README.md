@@ -19,6 +19,10 @@ Avoid over-reliance: Ideally, you should try to configure resources fully within
 Potential for complexity: Using provisioners can add extra steps and dependencies to your Terraform code, which can be difficult to debug and maintain. 
 
 `**Types of Terraform provisioners**:`
-"local-exec": Executes commands on the machine where Terraform is running. 
-"remote-exec": Executes commands on the newly created remote resource (like a server) using SSH. 
-"file": Copies files from your local machine to the remote resource.
+`"local-exec":`
+ Executes commands on the machine where Terraform is running. 
+ 
+`"remote-exec"`: 
+Executes commands on the newly created remote resource (like a server) using SSH. 
+
+`"file"`: Copies files from your local machine to the remote resource.
